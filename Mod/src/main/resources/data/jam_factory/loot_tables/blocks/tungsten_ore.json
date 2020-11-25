@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "jam_factory:tungsten_ore",
+                "conditions": [{
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "enchantments": [{
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                                "min": 1,
+                                "max": 32767
+                            }
+                        }]
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "jam_factory:tungsten_crystal"
+            }],
+            "conditions": [{
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "enchantments": [{
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                                "min": 1,
+                                "max": 32767
+                            }
+                        }]
+                    }
+                }
+            }]
+        }
+    ]
+}

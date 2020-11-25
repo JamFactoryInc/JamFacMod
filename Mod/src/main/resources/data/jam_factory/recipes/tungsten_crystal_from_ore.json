@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "jam_factory:tungsten_ore"
+    },
+    "result": "jam_factory:tungsten_crystal",
+    "experience": 1.0,
+    "cookingtime": 200
+}
