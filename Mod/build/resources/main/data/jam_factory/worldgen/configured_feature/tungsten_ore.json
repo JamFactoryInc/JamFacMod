@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+        "decorator": {
+            "type": "minecraft:count",
+            "config": {
+                "count": 100
+            }
+        },
+        "feature": {
+            "type": "minecraft:ore",
+            "config": {
+                "state": {
+                    "Name": "minecraft:gold_block"
+                },
+                "size": 10,
+                "target": {
+                    "predicate_type": "minecraft:always_true"
+                }
+            }
+        }
+    }
+}

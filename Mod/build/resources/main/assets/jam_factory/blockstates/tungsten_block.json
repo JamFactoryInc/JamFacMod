@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [{
+                "model": "jam_factory:block/tungsten_block"
+            },
+            {
+                "model": "jam_factory:block/tungsten_block"
+            },
+            {
+                "model": "jam_factory:block/tungsten_block",
+                "y": 180
+            },
+            {
+                "model": "jam_factory:block/tungsten_block",
+                "y": 180
+            }
+        ]
+    }
+}

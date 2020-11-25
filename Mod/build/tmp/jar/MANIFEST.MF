@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: jam_factory
+Specification-Vendor: Jam
+Specification-Version: 1
+Implementation-Title: forge-1.16.3-34.1.0-mdk
+Implementation-Version: 1.0
+Implementation-Vendor: Jam
+Implementation-Timestamp: 2020-11-20T15:50:20-0500
+
